@@ -2,12 +2,12 @@
 A slightly imroved wrapper around msf-nasm_shell
 
 Wraps msf-nasm_shell with pexpect to extend nasm_shell with:
-newline delimited commands (already had that capability)
-semicolon delimited commands
-shell loop interactive terminal (retained)
-oneshot piped input
-oneshot cli arg input
-Helpful formatting: oneline c-style hexstring followed by opcode comments
+* newline delimited commands (already had that capability)
+* semicolon delimited commands
+* shell loop interactive terminal (retained)
+* oneshot piped input
+* oneshot cli arg input
+* Helpful formatting: oneline c-style hexstring followed by opcode comments
 
 Example output
 ```
